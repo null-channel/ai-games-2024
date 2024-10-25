@@ -26,6 +26,8 @@ https://en.wikipedia.org/wiki/Morse_code
 0 -> separator units
 000 -> separator letters
 0000000 -> separator words
+1111111 -> period
+111111111 -> comma
 
 so the string 'two birds' would look like this in morse:
 `- .-- ---     -... .. .-. -.. ...`
