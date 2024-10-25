@@ -1,0 +1,14 @@
+/home/marek/code/ai_games_2024/takehome/csharp/obj/Debug/net8.0/csharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/marek/code/ai_games_2024/takehome/csharp/obj/Debug/net8.0/csharp.AssemblyInfoInputs.cache
+/home/marek/code/ai_games_2024/takehome/csharp/obj/Debug/net8.0/csharp.AssemblyInfo.cs
+/home/marek/code/ai_games_2024/takehome/csharp/obj/Debug/net8.0/csharp.csproj.CoreCompileInputs.cache
+/home/marek/code/ai_games_2024/takehome/csharp/bin/Debug/net8.0/csharp
+/home/marek/code/ai_games_2024/takehome/csharp/bin/Debug/net8.0/csharp.deps.json
+/home/marek/code/ai_games_2024/takehome/csharp/bin/Debug/net8.0/csharp.runtimeconfig.json
+/home/marek/code/ai_games_2024/takehome/csharp/bin/Debug/net8.0/csharp.dll
+/home/marek/code/ai_games_2024/takehome/csharp/bin/Debug/net8.0/csharp.pdb
+/home/marek/code/ai_games_2024/takehome/csharp/obj/Debug/net8.0/csharp.dll
+/home/marek/code/ai_games_2024/takehome/csharp/obj/Debug/net8.0/refint/csharp.dll
+/home/marek/code/ai_games_2024/takehome/csharp/obj/Debug/net8.0/csharp.pdb
+/home/marek/code/ai_games_2024/takehome/csharp/obj/Debug/net8.0/csharp.genruntimeconfig.cache
+/home/marek/code/ai_games_2024/takehome/csharp/obj/Debug/net8.0/ref/csharp.dll

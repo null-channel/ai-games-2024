@@ -1,0 +1,41 @@
+---
+- hosts: control_plane
+  become: yes
+  tasks:
+    - name: initialize the cluster
+      shell: kubeadm init --pod-network-cidr=192.168.0.0/16 >> cluster_initialized.txt
+      args:
+        chdir: $HOME
+        creates: cluster_initialized.txt
+
+    - name: create .kube directory
+      become: yes
+      file:
+        path: $HOME/.kube
+        state: directory
+        mode: 0755
+
+    - name: copy admin.conf to user's kube config
+      copy:
+        src: /etc/kubernetes/admin.conf
+        dest: $HOME/.kube/config
+        remote_src: yes
+
+    - name: download calico operator yaml
+      get_url:
+        url: https://raw.githubusercontent.com/projectcalico/calico/v3.28.2/manifests/tigera-operator.yaml
+        dest: $HOME/tigera-operator.yaml
+        mode: "0766"
+        force: true
+
+    - name: install calico operator
+      shell: kubectl create --validate=false -f $HOME/tigra-operator.yaml > pod_network_setup_operator.txt
+      args:
+        chdir: $HOME
+        creates: pod_network_setup_operator.txt
+
+    - name: install calico crds
+      shell: kubectl create -f https://raw.githubusercontent.com/projectcalico/calico/v3.28.2/manifests/custom-resources.yaml > pod_network_setup_crds.txt
+      args:
+        chdir: $HOME
+        creates: pod_network_setup_crds.txt

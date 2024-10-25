@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wf+hwyqMIyYJ/m/BXNVkE3nqfYK27/Sf4OvvMyb2WXqpWX7oiTFnUiuk0bz4gxlPfzJT12XwITdflbpRyjwJaw==",
+  "success": true,
+  "projectFilePath": "/home/marek/code/ai_games_2024/takehome/csharp/csharp.csproj",
+  "expectedPackageFiles": [
+    "/home/marek/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.8/microsoft.aspnetcore.app.ref.8.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
