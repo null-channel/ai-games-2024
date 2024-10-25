@@ -16,7 +16,7 @@ It is up to you to write a function to decode the polyalphabetic cipher!
 
 NOTE: The polyalphabetic cipher is a simple substitution cipher that uses a keyword to generate a key
 in order to encode the message the key is repeated until the message is fully encoded. The key is also
-does not use white space or punctuation and should be removed from the key before decoding the message.
+ not use white space or punctuation and should be removed from the key before decoding the message.
 
 example:
 Key: "The Black Cat Rides Again"
